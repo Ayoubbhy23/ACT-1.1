@@ -1,0 +1,19 @@
+Algorithme grand_nb
+variables	n: entier
+		max,v: réels
+début
+
+afficher("ecrire "Entrez le nombre numéro (1) :")
+saisir (max)
+pour n
+  allant de 2 à 20
+  par pas de 1 faire
+	ecrire "Entrez le nombre numéro (n) :";
+	saisir(v)
+	si (max<v) max=v;
+finpour;
+afficher ("Le plus grand de ces nombres est :",g); 
+
+fin
+
+ 

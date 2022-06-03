@@ -1,0 +1,13 @@
+Algorithme canons
+
+variables	n,t,L: entiers
+		c: réels
+début
+
+n=24;	//le nombre de canon 
+c=12.5;	//la cadence de tirepar canon 
+t=35;	//votre temps maximal de survie
+L=n*t*60/c;	
+Afficher ("le nombre de salves correspondants est",L);
+
+fin

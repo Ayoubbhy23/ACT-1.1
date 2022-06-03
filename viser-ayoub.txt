@@ -1,0 +1,26 @@
+Algorithme viser
+variables	c,e,a,i: entiers
+
+début
+
+//c= dernière position connue de l'ennemi
+//e= position recherché de l'ennemi
+//a= angle de tire
+i=1;
+Tant que c!=e ou i<6 faire
+	Ecrire ("Entrez la position de l'ennemi :");
+	saisir(c)	
+	Si c<e alors
+	Ecrire("Loupé ! (Aide : l'angle est plus grand).
+	saisir(a)
+	Entrez à nouveau la position de l'ennemi :");
+		si non
+		Ecrire("Loupé ! (Aide : l'angle est plus petit).
+		sasir(a)
+		Entrez à nouveau la position de l'ennemi :");
+	Finsi;
+Fintantque;
+
+Afficher("Touché ! bravo vous avez coulé votre ennemi !");
+
+fin
